@@ -1,0 +1,60 @@
+body{
+    background-image: url(assets/opaque.png);
+}
+.container {
+  line-height: 1.25em;
+  margin: auto;
+  padding: 10px;
+  font-size: 18px;
+  width: 75%;
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid rgb(62, 56, 32);
+  border-radius: 10px;
+}
+.picture {
+  width: 100px;
+  height: 100px;
+}
+img {
+  width: 270px;
+  height: 400px;
+}
+.header {
+  color: rgb(62, 56, 32);
+  font-family: "Girassol", cursive;
+  font-size: 120%;
+}
+h1 {
+  font-family: "Girassol", cursive;
+}
+.footer li {
+  list-style-type: none;
+  display: inline-block;
+  justify-content: space-between;
+}
+li {
+  list-style-type: none;
+}
+.footer {
+  margin-left: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 0 10px;
+}
+.iconify {
+  color: rgb(62, 56, 32);
+  width: 30px;
+  height: 30px;
+}
+.plans li .iconify {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+}
+.plans > li {
+  position: relative;
+  line-height: 1.5em;
+}
